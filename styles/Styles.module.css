@@ -1,0 +1,320 @@
+.navbar{
+    display: flex;
+    cursor: pointer;
+    padding: 0.4em 1em;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar_child{
+    margin-right: 40%;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar_child1 button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7em;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.layout{
+    color: white;
+    position: fixed;
+    top: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.home_bg {
+    width: 100%;
+    height: 59vh;
+    background-image: url('../assests/assests/unichatBg.png');
+    background-size: contain;
+    border-top: 3px solid white;
+    
+    display: flex;
+}
+.welcome {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    line-height: 2rem;
+  
+}
+.welcome h1 {
+    color: white;
+    font-size: 5rem;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+.welcomeS {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome button {
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 0.8em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 160px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.ios_style {
+    margin-top: 20px;
+    width: 270px;
+    transform: translateX(-70%);
+}
+.android_style {
+    margin-top:50px;
+    width: 270px;
+    transform: translateX(86%);
+}
+.device_style {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.unichatB {
+    background-color: #303030;
+    padding-bottom: 70px;
+    border-bottom: 6px solid white;
+    margin: 0;
+}
+.about {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+.about_icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.dev{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -40px;
+    font-size: 20px;
+}
+.icon{
+    width: 90px;
+    margin-bottom: 20px;
+}
+.icon:nth-child(even) {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer {
+    height: 100px;
+    
+}
+.sec {
+    background-image: url('../assests/assests/unichatBg.png');
+    background-size: contain;
+    height: 100vh;
+    width: 65%;
+}
+.hello {
+    color: rgb(216, 213, 213);
+   width: 100%;
+}
+.body_icon {
+    width: 70px;
+    margin-right: 20px;
+}
+.space {
+    margin: 40px 0 40px 0;
+}
+.space {
+    justify-content: end;
+}
+.main_chat {
+    width: 35%;
+}
+.userG {
+    font-size: 2.5rem;
+}
+.position {
+    position: absolute;
+}
+.closeBtn {
+    font-size: 1rem;
+    border: none;
+    margin-left: 20px;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 10px;
+}
+.main_chat {
+    opacity: 1;
+}
+
+@media (max-width: 1034px) {
+    .welcome h1, .welcomeS {
+        font-size: 4rem;
+    }
+    .body_icon {
+        width: 60px;
+        margin-right: 10px;
+    }
+    .welcome button {
+        margin-left: 150px;
+        width: 180px;
+    }
+}
+@media (max-width: 827px) {
+    .welcome h1, .welcomeS {
+        font-size: 3.5rem;
+    }
+    .body_icon {
+        width: 50px;
+        margin-right: 7px;
+    }
+    .welcome button {
+        margin-left: 130px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome h1, .welcomeS {
+        font-size: 3rem;
+    }
+    .body_icon {
+        width: 40px;
+        margin-right: 6px;
+    }
+    .welcome button {
+        margin-left: 110px;
+        width: 140px;
+        font-size: 1.1rem;
+    }
+    .device_style {
+        margin-top: 50px;
+    }
+    .about {
+        width: 90%;
+    }
+    .icon {
+        width: 120px;
+    }
+}
+
+@media (max-width: 620px) {
+    .layout{
+        margin-top: 30px;
+        text-align: center;
+
+    }
+    .layoutName{
+        text-align: center;
+       
+    }
+    .home_bg {
+        display: block;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .device_style {
+        margin-top: 0px;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .welcome {
+        width: 100%;
+        height: 50%;
+        margin-top: 60px;
+    }
+    .welcome button {
+        margin-left: 0;
+    }
+    .ios_style {
+        width: 180px;
+    } 
+    .android_style {
+        width: 180px;
+    }
+    .space {
+        justify-content: center;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    .about {
+        font-size: 2rem;
+    }
+    .icon {
+        width: 110px;
+    }
+}
+
+@media (max-width: 378px) {
+    .navbar_child1 button {
+        font-size: 0.8rem;
+    }
+    .about {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 896px) {
+    .userG {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .sec {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        transform: translateX(0);
+        transition: 1s;
+    }
+    .position {
+        position: relative;
+    }
+    .main_chat {
+        width: 100%;
+        height: 100vh;
+        opacity: 0;
+    }
+    .layout {
+        position: absolute;
+        top: 0;
+    } 
+    .translateS  {
+        transform: translateX(-100%);
+        transition: 1s;
+    }
+    .absolute {
+        position: absolute;
+    }
+    .opacity {
+        opacity: 1;
+    }
+
+}

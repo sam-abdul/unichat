@@ -1,0 +1,28 @@
+.footer {
+    background-color: #303030;
+    color: white;
+    padding: 20px;
+}
+
+.footer_text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social_icon {
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-display: none;
+    font-weight: bold;
+    font-size: 10px;
+}
